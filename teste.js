@@ -46,7 +46,7 @@ function excluirCadastro(nome) {
 }
 
 while (continuar == 's') {
-    var fazer = oqFazer
+    var fazer = oqFazer()
     if (fazer == '1') {
         solicitarNome()
         console.log('cadastro feito com sucesso')
